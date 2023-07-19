@@ -1,4 +1,4 @@
-
+```
 create table if not exists employees
 (
 	id int primary key auto_increment, name varchar(45),
@@ -23,3 +23,4 @@ VALUES
 (10, "Максим", "Воронин", "рабочий", 2, 11000, 24),
 (11, "Юра", "Галкин", "рабочий", 3, 12000, 22),
 (12, "Люся", "Люськина", "уборщик", 10, 10000, 49);
+```
