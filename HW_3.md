@@ -34,9 +34,9 @@ SELECT * FROM employees ORDER BY salary DESC
 # Задача 2. Отсортируйте по возрастанию поле “Зарплата” и выведите 5 строк с наибольшей заработной платой
 SELECT * FROM employees ORDER BY salary DESC LIMIT 5
 ```
-
-
+Выполните группировку всех сотрудников по специальности “рабочий”, зарплата которых превышает 20000
 ```
 # Задача 3. Выполните группировку всех сотрудников по специальности “рабочий”, зарплата которых превышает 20000
-SELECT * FROM employees ORDER BY salary DESC LIMIT 5
+SELECT * FROM employees WHERE salary > 20000 HAVING speciality = "рабочий"
 ```
+
