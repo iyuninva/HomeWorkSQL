@@ -1,4 +1,3 @@
-HomeWork_3
 1. Вывести на экран сколько машин каждого цвета для машин марок BMW и LADA
 ```
 SELECT MARK, color, COUNT(color) AS 'Quantity of cars' FROM AUTO
